@@ -17,9 +17,9 @@ class BuyAndSellStock {
 
 object Main {
   def main(args: Array[String]): Unit = {
-    val buyAndSellStock = new BuyAndSellStock()
+    val buyandsellstock = new BuyAndSellStock()
 
     val prices = Array(7, 1, 5, 3, 6, 4)
-    println("Maximum profit: " + buyAndSellStock.maxProfit(prices))
+    println("Maximum profit from the stocks: " + buyandsellstock.maxProfit(prices))
   }
 }
